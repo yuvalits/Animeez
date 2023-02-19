@@ -1,0 +1,43 @@
+<resources>
+        <string name="app_name">abc</string>
+        <string name="home">home</string>
+        <string name="action_settings">Settings</string>
+        <!-- Strings used for fragments for navigation -->
+        <string name="next">Next</string>
+        <string name="title_main">Main</string>
+        <string name="enter">enter</string>
+        <string name="login_fragment_label">login_fragment_label</string>
+        <string name="create_your_account">create your account</string>
+        <string name="signup_fragment_label">signup_fragment_label</string>
+        <string name="previous">Previous</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="todo">TODO</string>
+        <string name="profile">Profile</string>
+        <string name="animeez">Animeez</string>
+        <string name="enter_user_name_or_email">enter user name or Email</string>
+        <string name="enter_your_password">enter your password</string>
+        <string name="login">login</string>
+        <string name="signup">signup</string>
+        <string name="enter_your_email">enter your email</string>
+        <string name="create_your_user_name">create your user name</string>
+        <string name="create_new_password">create new password</string>
+        <string name="create_your_password">create your password</string>
+        <string name="back">back</string>
+        <string name="title_activity_main">MainActivity</string>
+        <string name="title_home">Home</string>
+        <string name="title_dashboard">Dashboard</string>
+        <string name="title_notifications">Notifications</string>
+        <string name="title_profile">Profile</string>
+        <string name="title_explore">Explore</string>
+        <string name="Profile">Profile</string>
+    <string name="hello_there">hello there,</string>
+        <string name="user">user</string>
+    <string name="Main">Main</string>
+    <string name="hey">hey,</string>
+    <string name="top_airing">Top airing</string>
+        <string name="recent_episodes">Recent episodes</string>
+         <string name="trending">Trending</string>
+        <string name="airing_schedule">Airing schedule</string>
+    <string name="random_anime">Random anime</string>
+</resources>

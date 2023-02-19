@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LogInFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.animeez.fragments.LogInFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/narutoWallpaper.jpg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/naruto_wallpaper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/loginFragment_tv_animeez"
+        android:layout_width="166dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="@string/animeez"
+        android:textColor="@color/naruto_wallpaper_grey"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/loginFragment_et_email"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="4dp"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:text="@string/enter_your_email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/naruto_wallpaper_grey"
+        app:layout_constraintBottom_toTopOf="@+id/loginFragment_et_password"
+        app:layout_constraintEnd_toEndOf="@+id/loginFragment_et_password"
+        app:layout_constraintStart_toStartOf="@+id/loginFragment_et_password"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/loginFragment_et_password"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:hint="@string/enter_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/loginFragment_btn_enter"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/loginFragment_btn_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/naruto_wallpaper_grey"
+        android:text="@string/enter"
+        app:layout_constraintBottom_toTopOf="@+id/loginFragment_btn_newAccount"
+        app:layout_constraintEnd_toEndOf="@+id/loginFragment_btn_newAccount"
+        app:layout_constraintStart_toStartOf="@+id/loginFragment_btn_newAccount" />
+
+    <Button
+        android:id="@+id/loginFragment_btn_newAccount"
+        android:layout_width="224dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="@color/naruto_wallpaper_grey"
+        android:text="@string/create_your_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

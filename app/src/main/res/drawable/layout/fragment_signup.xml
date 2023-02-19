@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/signUpFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.fragments.SignUpFragment">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+
+    <ImageView
+        android:id="@+id/narutoWallpaper.jpg"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/naruto_wallpaper"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/signup_page_logo"
+        android:layout_width="0dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="106dp"
+        android:fontFamily="@font/calligraffitti"
+        android:gravity="center"
+        android:text="@string/animeez"
+        android:textColor="@color/naruto_wallpaper_grey"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/signup_page_email_input"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="250dp"
+        android:autofillHints=""
+        android:gravity="center"
+        android:hint="@string/enter_your_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/narutoWallpaper.jpg"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/signup_page_username_input"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:autofillHints=""
+        android:gravity="center"
+        android:hint="@string/create_your_user_name"
+        android:inputType="textPersonName"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_page_email_input"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/signup_page_password_input"
+        android:layout_width="292dp"
+        android:layout_height="52dp"
+        android:autofillHints=""
+        android:gravity="center"
+        android:hint="@string/create_your_password"
+        android:inputType="textPassword"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signup_page_username_input"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signup_page_signup_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@color/naruto_wallpaper_grey"
+        android:text="@string/signup"
+        android:textColor="#9E9E9E"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/signup_page_logo"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/signup_page_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@color/naruto_wallpaper_grey"
+        android:text="@string/back"
+        android:textColor="#9E9E9E"
+        android:textColorHint="#757575"
+        app:layout_constraintBottom_toTopOf="@+id/signup_page_logo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
